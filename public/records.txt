@@ -1,0 +1,1 @@
+[{"value":"s.multiscreensite.com","host":"www","ttl":300,"type":"CNAME"},{"value":"35.172.94.1","host":"@","ttl":300,"type":"A"},{"value":"domain-verification=JGNoXe","host":"@","ttl":300,"type":"TXT"}]

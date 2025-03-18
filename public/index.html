@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entri Integration</title>
+    <script src="https://cdn.goentri.com/entri.js"></script> <!-- Replace with the correct URL -->
+    <style>
+        /* General style */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Logo */
+        .logo {
+            width: 120px; /* Adjust the size as needed */
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        /* Styled button */
+        button {
+            background-color: #fa7268; /* Custom background color */
+            color: #fff; /* Custom text color */
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #e15d54;
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Adding the logo -->
+    <img src="https://i.imgur.com/kBgnBtx.png" alt="Logo" class="logo"> <!-- Replace "logo.png" with the correct image path -->
+
+    <h1>Welcome to My Website</h1>
+    <p>Click the button below to launch Entri.</p>
+
+    <button type="button" id="launchEntri" disabled>Loading...</button>
+
+    <!-- External JavaScript file -->
+    <script src="script.js" type="module"></script>
+
+</body>
+</html>
